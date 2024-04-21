@@ -1,0 +1,42 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+.parent {
+    margin: auto;
+    height: 500px;
+    width: 300px;
+    background-color: antiquewhite;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+    /* display: grid;
+    justify-items: center;
+    align-items: center; */
+    /* text-align: center; */
+
+    position: relative;;
+}
+
+.child {
+   
+    height: 100px;
+    width: 100px;
+    background-color:aquamarine;
+
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* translate: 50% 50%; */
+    /* text-align: center; */ 
+}
